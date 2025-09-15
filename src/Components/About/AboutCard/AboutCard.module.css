@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap');
+
+.aboutCard {
+    display: flex;
+    flex-direction: row;
+    height: 25em;
+    width: 75vw;
+    margin: auto;
+    border-radius: 10px;
+    @apply text-center;
+}
+
+.cardTitle {
+    color: var(--baylor-green);
+    margin: auto;
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
+    min-width: 400px;
+    flex: 2;
+}
+
+.cardContent {
+    color: white;
+    margin: auto;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--baylor-green);
+    border-radius: 1em;
+}

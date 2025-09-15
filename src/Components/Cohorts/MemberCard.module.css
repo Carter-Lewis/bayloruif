@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap');
+
+.memberCard {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberTitle {
+    color: var(--baylor-green);
+    font-size: 3em;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px; /* Adjust as needed for vertical centering */
+    margin-top: auto;
+    margin-bottom: 2rem; /* Space between name and image */
+}
+
+.memberImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}
+
+.memberVideo {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}

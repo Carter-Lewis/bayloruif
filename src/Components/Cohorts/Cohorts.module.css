@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap');
+
+.cohortsWrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cohortsTitle {
+    font-size: 9em;
+    color: var(--baylor-green);
+    font-family: 'Permanent Marker', cursive;
+    width: 50vw;
+    text-align: center;
+}
+
+.cohortsCardsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+}
